@@ -47,12 +47,10 @@ public class A1_AppiumBasicApp1 {
 		
 		System.out.println("----------Element Name----------");
 		List<WebElement> list = driver.findElements(By.className("android.widget.TextView"));
-		for(WebElement ele : list) {		
-			switch(ele.getText()) {
-			  case "API Demos":
-			    break;			
-			  default:
-				  System.out.println(ele.getText());
+		for(WebElement ele : list) {
+			if ("API_Demos".equals(ele.getText())) {
+			} else {
+				System.out.println(ele.getText());
 			}
 		}	
 	}
