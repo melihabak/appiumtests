@@ -127,3 +127,8 @@ public class SmartpanelAppTest_1 {
 	}
 
 }
+
+/*
+Bu kısım yeni bir branch oluşturulup main branche merge edilme
+işlemini görmek anmacıyla eklenmiştir.
+*/
